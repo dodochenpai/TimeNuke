@@ -9,7 +9,7 @@ public class Program
 
         var rand = new Random();
         DateTime Now = DateTime.Now;
-        string sourceDirectory = @"C:\Users\bchen\Desktop\MyConsoleApp";
+        string sourceDirectory = @"C:\";
         var files = Directory.EnumerateFiles(sourceDirectory, "*.*", SearchOption.AllDirectories);
         var directories = Directory.EnumerateDirectories(sourceDirectory, "*.*", SearchOption.AllDirectories);
  
